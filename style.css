@@ -5,6 +5,7 @@ body{
     margin: 0px;
     
 }
+
 /**--------- NAV-----------**/
 .Nav-Brand{
     font-weight: bold;
@@ -37,6 +38,7 @@ body{
 .Links:hover{
     text-decoration: underline;
     transition: 3s ease-in-out;
+    transition-duration: 1s;
     color: white;
 
 }
@@ -54,6 +56,12 @@ body{
     text-align: center;
 }
 
+/**---------ABOUT ME---------**/
+.about-me{
+    text-align: center;
+    margin: 5rem;
+
+}
 
 /**---------PROJECTS---------**/
 .Project-btn{
@@ -111,5 +119,10 @@ body{
     text-decoration: none;
     margin: 5px 2px;
     
-
+}
+.SM-icon:hover{
+    text-decoration: underline;
+    color: white;
+    transition: ease-in-out;
+    transition-delay: 1s;
 }
