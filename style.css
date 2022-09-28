@@ -1,5 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
 
 body{
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Comic Neue', cursive;
+    margin: 0px;
+    
+}
+/**--------- NAV-----------**/
+.Nav-Brand{
+    font-weight: bold;
+}
+.nav{
+    font-weight: 700 bold;
+    background-color: #00BFA6;
+    border-bottom: 2rem;
+   
+}
+.links{
+    list-style: none;
+    color: white;
+    text-align: right;
+    padding-right: 3rem;
+    padding-top: 2rem; 
+}
+.Links{
+    color: white;
+    display: inline;
+    padding: 0 1rem;
+}
+
+/**---------PROJECTS---------**/
+.Project-btn{
+    background-color: #00BFA6;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    border-width: 0.5rem 2rem;
+    color: black;
+    
+}
+
+
+/**--------BLOGS--------**/
+.blogs{
+    background-color: rgb(248, 245, 240);
+}
+
+.Blog-btn{
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
