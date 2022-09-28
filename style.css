@@ -62,24 +62,31 @@ body{
 /**---------ABOUT ME---------**/
 .about-me{
     text-align: center;
-    margin: rem;
+    margin-bottom: 1rem;
+    background-color:#f5f5f5;
+    padding: 0.5rem;
+    
+    
 
 }
 
 /**---------PROJECTS---------**/
+.Projects{
+    text-align: center;
+}
 .Project-btn{
     background-color: #E44A0E;
     text-decoration: none;
-    border-radius: 1.5rem;
-    border-width: 0.5rem 2rem;
-    color: black;
+    border-radius: 0.5rem;
+    color: white;
     
 }
 
 
 /**--------BLOGS--------**/
 .blogs{
-    background-color: rgb(248, 245, 240);
+    background-color: #f5f5f5;
+    text-align: center;
 }
 
 .Blog-btn{
@@ -87,6 +94,7 @@ body{
     background-color: white;
     color: black;
     border: 2px solid black;
+    
 }
 
 /**----------FOOTER-------------**/
