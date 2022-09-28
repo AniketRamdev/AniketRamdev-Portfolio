@@ -8,11 +8,14 @@ body{
 
 /**--------- NAV-----------**/
 .Nav-Brand{
+    text-decoration: none;
+
     font-weight: bold;
     color: white;
     font-size:larger;
     padding-left: 1rem;
     padding-top: 1rem;
+
     
 
 }
@@ -59,7 +62,7 @@ body{
 /**---------ABOUT ME---------**/
 .about-me{
     text-align: center;
-    margin: 5rem;
+    margin: rem;
 
 }
 
@@ -90,7 +93,8 @@ body{
 .Foot{
     background-color: #E44A0E;
     border-top-right-radius: 1rem;
-    height: 10rem;
+    height: fit-content;
+    padding-bottom: 0.5rem;
 }
 .SM-Heading{
     text-align: center;
@@ -102,7 +106,7 @@ body{
      color: white;
      text-align: center;
      padding-right: 3rem; 
-     padding-bottom: 2rem;
+    
 
 }
 .link-SM{
@@ -119,7 +123,10 @@ body{
     text-decoration: none;
     margin: 5px 2px;
     
+    
 }
+
+
 .SM-icon:hover{
     text-decoration: underline;
     color: white;
