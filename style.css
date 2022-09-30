@@ -1,91 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    
+
 }
 
 /**--------- NAV-----------**/
-.Nav-Brand{
+.Nav-Brand {
     text-decoration: none;
 
     font-weight: bold;
     color: white;
-    font-size:larger;
+    font-size: larger;
     padding-left: 1rem;
     padding-top: 1rem;
 
-    
+
 
 }
-.nav{
+
+.nav {
     font-weight: bold;
     background-color: #E44A0E;
     border-bottom-left-radius: 1rem;
-    padding-bottom: 2px; 
-    
-   
+    padding-bottom: 2px;
+
+
 }
-.links{
+
+.links {
     list-style: none;
     color: white;
     text-align: right;
     padding-right: 3rem;
-    padding-top: 2rem; 
+    padding-top: 2rem;
     text-decoration: none;
 }
-.Links{
+
+.Links {
     text-decoration: none;
     color: white;
     display: inline;
     padding: 0 1rem;
 }
-.Links:hover{
+
+.Links:hover {
     text-decoration: underline;
     color: white;
 }
+
 /**---------HERO---------**/
-.Hero{
-    padding:2rem;
+.Hero {
+    padding: 2rem;
 }
-.Hero-img{
-   max-width: 350px;
-   margin: auto;
-   display: block;
+
+.Hero-img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
 }
-.Hero-Heading{
+
+.Hero-Heading {
     padding-top: 2rem;
     text-align: center;
 }
 
 /**---------ABOUT ME---------**/
-.about-me{
+.about-me {
     text-align: center;
     margin-bottom: 1rem;
-    background-color:#f5f5f5;
+    background-color: #f5f5f5;
     padding: 0.5rem;
-    
-    
+
+
 
 }
 
 /**---------PROJECTS---------**/
-.Projects{
+.Projects {
     text-align: center;
     margin-bottom: 1rem;
     padding: 0.5rem;
 }
-.Project-btn{
+
+.Project-btn {
     background-color: #E44A0E;
     text-decoration: none;
     border-radius: 1rem;
     color: white;
     text-align: left;
-    width: 50px;
     padding: 0.5rem 1rem;
 }
-.Project-btn:hover{
+
+.Project-btn:hover {
     border-radius: 1rem;
     border: 2px solid #E44A0E;
     background-color: white;
@@ -95,71 +103,77 @@ body{
 
 
 /**--------BLOGS--------**/
-.blogs{
+.blogs {
     text-align: center;
     margin-bottom: 1rem;
-    background-color:#f5f5f5;
+    background-color: #f5f5f5;
     padding: 2rem;
 }
 
-.Blog-btn{
+.Blog-btn {
     text-decoration: none;
     border-radius: 1rem;
     background-color: white;
     color: #E44A0E;
     border: 2px solid #E44A0E;
     padding: 0.5rem 1rem;
-    
+
 }
-.Blog-btn:hover{
+
+.Blog-btn:hover {
     background-color: #E44A0E;
     color: white;
     transition: 0.5s ease-in-out;
 
 }
-.Blog-btn:active{
+
+.Blog-btn:active {
     transition: 1s;
 }
 
 /**----------FOOTER-------------**/
-.Foot{
+.Foot {
     background-color: #E44A0E;
     border-top-right-radius: 1rem;
     height: fit-content;
     padding-bottom: 0.5rem;
 }
-.SM-Heading{
+
+.SM-Heading {
     text-align: center;
     color: white;
     padding-top: 2rem;
 }
-.Link-SM{
-     list-style: none;
-     color: white;
-     text-align: center;
-     padding-right: 3rem; 
-    
+
+.Link-SM {
+    list-style: none;
+    color: white;
+    text-align: center;
+    padding-right: 3rem;
+
 
 }
-.link-SM{
+
+.link-SM {
     color: white;
     display: inline;
     padding: 0 1rem;
-    
+
 }
-.SM-icon{
+
+.SM-icon {
     padding: 2px;
     font-size: 2px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    
-    
+
+
 }
 
 
-.SM-icon:hover{
+.SM-icon:hover {
     text-decoration: underline;
     color: white;
     transition: ease-in-out;
