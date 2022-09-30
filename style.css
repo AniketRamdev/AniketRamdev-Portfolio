@@ -12,6 +12,11 @@ body {
 .container .section-head{
     text-align: center;
 }
+hr{
+    margin-top: 3rem;
+}
+
+
 /**--------- NAV-----------**/
 .Nav-Brand {
     text-decoration: none;
